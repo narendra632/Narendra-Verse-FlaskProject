@@ -1,0 +1,50 @@
+
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image:url({{url_for('static',filename='assets/img/my.png')}})">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p> <b>
+                                Hi this is Narendra Singh Rathore. I am a programmer and a software developer. 
+                                I am persuing a B.tech degree in Computer Science from Nutan College of Engineering and 
+                                Research. <br><br>
+                                For any questions, critics or suggestions, you can contact me by using the contact form on this website.<br><br>
+                                Website Info
+                            </b> 
+                            <ul>
+                                <li> I used Flask(Python frame-work) to build the back-end and MySQL for DBMS for this website.
+                                <li>The whole front-end is programmed and designed using HTML, CSS and Javascript.
+                                <li>Jinja2 template library to render templates of the HTML files.
+                                <li>SQLAlchemy(SQL toolkit and object-relational mapper for python) to manage database.
+                                <li>Json to transmit data in in web application.
+                                <li>VS Code for programming and XAMPP as localhost for testing.
+                                <li>Python Version used - 3.8.10
+                                <li>Modules used - Flask, flask_SQLAlchemy, werkzeug, MySQLdb, mysqlclient, Json, datetime, os, math.
+                            </ul>
+
+
+                            
+                            
+                            {{params['user_about']}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        {% endblock %}
