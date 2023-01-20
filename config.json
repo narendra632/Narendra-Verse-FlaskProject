@@ -1,0 +1,31 @@
+
+{
+  "_Comments":"Please edit the following lines as instructed to make your json functional"
+}
+
+
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/__Your_Project_name",
+        "prod_uri":"mysql://root:@localhost/__Your_Project_name",
+        "title_name":"Narendra-Verse",
+        "blog_name":"Narendra-Verse",
+        "by_name":"By Narendra",
+        "fb_url":"https://facebook.com/profile.php?id=100021904740909",
+        "tw_url":"https://twitter.com/i__am__narendra?t=o1lpa_9cZfn4Jy25Xvys5g&s=03",
+        "gh_url":"https://github.com/narendra632",
+        "ig_url":"https://instagram.com/invites/contact/?i=9egh8zij4jd&utm_content=2qlx31d",
+        "li_url":"https://www.linkedin.com/in/narendra-rathore-2b06a1222/",
+        "user_id":"__Your_Gmail_ID__",
+        "user_password":"__Gmial_Password__",
+        "no_of_posts":2,
+        "admin_name":"narendra",
+        "admin_password":"rathore123",
+        "upload_location":"{{url_for('static',filename='assets//img//')}}",
+
+        "user_about":""
+
+    }
+}
